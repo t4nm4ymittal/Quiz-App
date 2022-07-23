@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class = "container">
+       
+        <div class="main4">
+            <span style="font-size: 40px;font-weight: bolder;"> All Done!<br><br></span>
+            <span id="displayfinal" style="font-size: 25px;font-weight: bold;"></span>
+            <form id="form" action="showhighscore.html" >
+                <label>Enter Initials:</label>
+                <input type="text" id="initals" name="Initials">
+                <input type="submit" id="submit" value="Submit">
+            </form> 
+        </div>
+        <div class = "main3">
+            <div class = "que_text" > </div>
+            <div class = "op_text"></div>
+           <div class="display"></div>
+        </div>
+    <div class = "header active">
+        <a id=leaderboard href="showhighscore.html">View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+          <div id="time">Time = 00:00</div>   
+    </div>
+    <div class= "main active">
+       
+        <span style="font-size: 40px;font-weight: bolder;"> Quick Challenge</span><br><br>
+       <span style="font-size: 20px;font-weight: bold;"> Try to answer the following code related question within time limit.<br><br>Keep in mind that incorrect answers will penalize your score/time by ten seconds! </span><br><br>
+      <div class = "start"><button>Start Quiz</button></div>
+   
+    </div>
+   
+   
+</div>
+<script src="script.js"></script>
+<script src="script2.js"></script>
+<script src="questions.js"></script>
+</body>
+
+</html>
